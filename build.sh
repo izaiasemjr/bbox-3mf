@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # dependencies
-sudo apt-get install libcgal-dev
+
 
 # build
 rm -r build

@@ -16,10 +16,6 @@ endif()
 #-----------------------------------------------------------------
 
 
-include_directories(${PCL_INCLUDE_DIRS})
-link_directories(${PCL_LIBRARY_DIRS})
-add_definitions(${PCL_DEFINITIONS})
-
 add_executable (${PROJECT_NAME} ./src/boundingbox.cpp)
 target_link_libraries (${PROJECT_NAME})
 
